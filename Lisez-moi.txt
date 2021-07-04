@@ -1,0 +1,19 @@
+Ce Travail a été réalisé par les étudiants de l'ecole nationale de science de l'informatique-Université de la Mannouba
+
+BOUABID FAROUK
+KACEM HAMZA
+TARCHOUN NESSIM
+
+Le fichier "detection_model.ipynb" démontre le "data training" du modèle de détection des panneaux
+Le fichier "classification_model.ipynb" démontre le "data training" du modèle de classification des panneaux
+le fichier "application.ipynb" contient le code qui a permet de créer l'application qui détecte et classifie des panneaux (5 catégories) 
+
+tous les fichiers "*.ipynb" d'implémentation des modèles contiennent des chemins de fichier et de dossier dédiés à l'ordinateur où le training à été réalisé . Donc il faut redéfinir les chemins avant de refaire le training des modèles .
+
+Conception de l'application :
+
+1- le modèle de détection permet de déterminer si une image donnée est un panneau ou non
+
+2- le modèle de classification permet de déterminer la classe à laquelle appartient le panneau détecté
+
+3- l'application permet de détecter deux objets qui ont des couleurs primaires ("rouge","bleu") couleurs caractéristiques des panneaux , et d'identifier si l'objet est un panneau (modèle de détection) puis de déterminer si c'est le cas la classe à laquelle il appartient.(modèle de classification) 
